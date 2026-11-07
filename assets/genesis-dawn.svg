@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" role="img" aria-labelledby="ttl dsc">
+<title id="ttl">GoWorld.Digital — Genesis, quando a inteligência se organiza</title>
+<desc id="dsc">Ilustração original: um universo escuro torna-se uma constelação ciano e dourada de nós ligados em torno de Genesis. Não representa telemetria real.</desc>
+<defs><radialGradient id="space"><stop stop-color="#142b52"/><stop offset=".52" stop-color="#081326"/><stop offset="1" stop-color="#050916"/></radialGradient><radialGradient id="sun"><stop stop-color="#ffffff"/><stop offset=".12" stop-color="#fff8d0"/><stop offset=".34" stop-color="#ffcb75" stop-opacity=".97"/><stop offset=".62" stop-color="#31cef6" stop-opacity=".24"/><stop offset="1" stop-color="#31cef6" stop-opacity="0"/></radialGradient><linearGradient id="beam" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6c579"/><stop offset="1" stop-color="#43e6ff"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="4"/></filter></defs>
+<rect width="1280" height="460" fill="url(#space)"/>
+<g fill="#a8d5ff" opacity=".58"><circle cx="64" cy="48" r="1"/><circle cx="218" cy="67" r="1.5"/><circle cx="302" cy="118" r="1"/><circle cx="412" cy="30" r="1.2"/><circle cx="575" cy="72" r="1.2"/><circle cx="748" cy="40" r="1"/><circle cx="1027" cy="66" r="1.3"/><circle cx="1193" cy="109" r="1.5"/><circle cx="1164" cy="333" r="1"/><circle cx="1001" cy="401" r="1"/><circle cx="705" cy="410" r="1.3"/><circle cx="331" cy="371" r="1.2"/><circle cx="73" cy="330" r="1.4"/><circle cx="453" cy="427" r="1"/><circle cx="896" cy="182" r="1"/><circle cx="1207" cy="427" r="1"/></g>
+<g transform="translate(1000 226)" fill="none">
+<ellipse rx="232" ry="93" transform="rotate(-30)" stroke="#40b3f0" stroke-width="1" opacity=".48"/>
+<ellipse rx="204" ry="142" transform="rotate(30)" stroke="#c6985b" stroke-width="1" opacity=".37"/>
+<ellipse rx="178" ry="178" stroke="#40b3f0" stroke-width=".9" opacity=".18"/>
+<path d="M-210 -20 L-116 95 L-30 -121 L90 -73 L174 120 L-5 142 L-114 95 L100 11 L-30 -121" stroke="url(#beam)" stroke-width="1.35" opacity=".5"/>
+<circle r="134" fill="url(#sun)" opacity=".65"/>
+<circle r="51" fill="url(#sun)"/>
+<circle r="7" fill="#ffffff"/>
+<g fill="#6adfff" stroke="#d6f9ff" stroke-width="1"><circle cx="-210" cy="-20" r="4"/><circle cx="-116" cy="95" r="3"/><circle cx="-30" cy="-121" r="4"/><circle cx="90" cy="-73" r="4"/><circle cx="174" cy="120" r="4"/><circle cx="-5" cy="142" r="3"/><circle cx="100" cy="11" r="4"/></g>
+<path d="M-100 0H100 M0 -100V100" stroke="#f8d9a2" opacity=".2"/></g>
+<path d="M0 427 H1280" stroke="#83defd" stroke-width=".7" opacity=".25"/>
+<g font-family="Arial,Helvetica,sans-serif"><text x="74" y="95" font-size="21" fill="#77cee9" letter-spacing="6">GOWORLD.DIGITAL</text><text x="70" y="208" font-size="81" fill="#f8fafc" font-weight="700" letter-spacing="-3">GENESIS</text><text x="74" y="256" font-size="25" fill="#e7bd83" letter-spacing=".2">Da escuridão, nasce a possibilidade.</text><text x="74" y="298" font-size="25" fill="#c9e5fb">Da conexão, nasce a inteligência coletiva.</text><text x="75" y="380" font-size="16" fill="#8eaac3" letter-spacing="2">LABORATÓRIO AI-NATIVE  •  VISÃO EM CONSTRUÇÃO</text></g>
+</svg>
