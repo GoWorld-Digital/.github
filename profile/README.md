@@ -76,7 +76,7 @@ Sem promessas de autonomia total, faturação comprovada ou participação finan
 </p>
 
 <p align="center">
-  <a href="https://goworld.digital">GoWorld.Digital</a> · <a href="https://github.com/GoWorld-Digital">Organização GitHub</a> · <a href="../docs/GENESIS-MANIFESTO-V0.md">Manifesto experimental</a>
+  <a href="https://github.com/GoWorld-Digital">Organização GitHub</a> · <a href="../docs/GENESIS-MANIFESTO-V0.md">Manifesto experimental</a>
 </p>
 
 <sub>Perfil público v0.1 — visão em desenvolvimento. Ilustração e fluxos conceptuais; sem representação de telemetria operacional.</sub>
