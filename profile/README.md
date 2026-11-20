@@ -42,6 +42,10 @@ Agents are empowered to investigate, reason, propose, design, build and operate 
 
 The Founder / Human Executive Sponsor provides access to resources and handles decisions that require human authority. Autonomy increases progressively according to demonstrated reliability, risk and enforceable technical controls.
 
+## Institutional alignment
+
+All AI assistants, agents and contributors should follow the [GWD Genesis Institutional Alignment & Agent Operating Directive](./AGENT-ALIGNMENT.md), including the first-phase Hermes runtime decision and the repository reconciliation process.
+
 ## Founding Manifesto
 
 Read the complete founding manifesto:
