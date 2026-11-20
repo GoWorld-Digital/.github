@@ -131,6 +131,7 @@ The initial repository inventory and first-pass conflict register are complete. 
 - Do not treat GBrain, Cortex, Vault, Obsidian, Ops Core or any dashboard as fully integrated unless verified by implementation evidence.
 - Do not bulk-import all candidate agents. Select roles according to actual missions and test them under Hermes.
 - Do not make broad destructive edits. Preserve history, use branches/PRs where practical and record supersession explicitly.
+- Enforce D11: synthetic staging work may proceed only within its specific approved scope; before any production deployment, verify a second independent human GitHub Organization Owner with independent recovery, MFA and the required access matrix. A staging GO is never a production GO.
 - Continue useful, reversible work in isolated environments where it does not depend on unresolved institutional assumptions.
 
 ## 9. Prior approvals and open implementation work
