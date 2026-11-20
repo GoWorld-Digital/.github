@@ -26,7 +26,7 @@ The following decisions supersede conflicting assumptions in older drafts, proto
 
 - GWD is an **AI Venture Studio**, not a preselected five-layer company structure or a fixed list of business units.
 - Governance has two permanent missions: portfolio stewardship and active opportunity discovery.
-- No previously discussed business idea, vertical, department or business unit is automatically approved. Ventures enter the portfolio only through the formal Council process.
+- No previously discussed business idea, vertical, department or business unit is automatically approved merely because it appears in old documents. Preserve specific prior Council approvals (including D01's GWD Academy designation) and explicitly carry forward, revalidate or supersede them through the formal transition process; do not erase D01–D11.
 - Every Venture Chief receives a mission, not a predetermined solution. Chiefs must research, challenge the initial hypothesis and recommend a better opportunity or business model when evidence supports it.
 - Ventures may operate owned businesses, sell technology, license products, deliver managed services, serve third-party operators or combine these models.
 - Technology is diverse by design. **One Intelligence. Multiple Runtimes. Independent Ventures.**
@@ -34,7 +34,9 @@ The following decisions supersede conflicting assumptions in older drafts, proto
 - Governance and human approval authority do not move into Hermes. A runtime executes within its mandate; it does not grant itself authority.
 - Cortex is a required institutional capability. Its internal technical architecture is not ratified by this directive and remains subject to its separate design and validation process.
 - Organisational, Venture and client data must remain isolated by enforceable permissions. Shared infrastructure does not imply shared access.
-- Autonomy is progressive and risk-based. Critical legal, financial, equity, regulated, sensitive-data and binding external actions require the applicable explicit human approval.
+- Autonomy is progressive and risk-based. D10 previously ratified A0–A3; the Studio handbook's A0–A4 extension requires an explicit amendment before A4 can grant authority. Critical legal, financial, equity, regulated, sensitive-data and binding external actions require the applicable explicit human approval.
+
+Prior ratified decisions D01–D11 and the approved GWD-GOV-0001 Charter are preserved. The new 20 November Genesis direction governs the current strategic model, but it does not silently amend the prior decision register or Charter. Formal supersession and transition questions are tracked in the private [Decision Continuity Register](https://github.com/GoWorld-Digital/gwd-venture-studio/blob/main/docs/11-repository-reconciliation/decision-continuity-register.md). All agents must consult it before changing portfolio status, role mandates, autonomy levels or legal/entity assumptions.
 
 ## 3. First-phase runtime decision: Hermes
 
@@ -131,7 +133,15 @@ The initial repository inventory and first-pass conflict register are complete. 
 - Do not make broad destructive edits. Preserve history, use branches/PRs where practical and record supersession explicitly.
 - Continue useful, reversible work in isolated environments where it does not depend on unresolved institutional assumptions.
 
-## 9. Acknowledgement required from each assistant
+## 9. Prior approvals and open implementation work
+
+Before proposing a merge, archive, migration, role change or production action, every assistant must consult:
+- [Decision Continuity Register D01–D11 and GWD-GOV-0001](https://github.com/GoWorld-Digital/gwd-venture-studio/blob/main/docs/11-repository-reconciliation/decision-continuity-register.md).
+- [Open PR Register](https://github.com/GoWorld-Digital/gwd-venture-studio/blob/main/docs/11-repository-reconciliation/open-pr-register.md).
+
+Open PRs and branches preserve work and reviewer findings; they are not automatically approved or production-ready. Do not merge, close or discard them as part of cleanup.
+
+## 10. Acknowledgement required from each assistant
 
 Every assistant or agent receiving this directive should respond with:
 1. **UNDERSTOOD** — the current GWD Genesis identity and the three pillars.
