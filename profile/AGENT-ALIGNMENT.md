@@ -108,31 +108,21 @@ No assistant or agent may independently:
 - Grant itself or another agent unrestricted access to accounts, credentials, personal data or client systems.
 - Promote a candidate opportunity to an approved Venture without a recorded Council decision.
 
-## 7. Repository reconciliation: required next activity
+## 7. Repository reconciliation: active baseline
 
-The organisation contains legacy documents, operating-system proposals, prototypes and new constitutional repositories. Their contents must be reconciled before any one repository is declared universally authoritative.
+The first authenticated inventory of the GoWorld-Digital organization has been recorded across 13 repositories. The detailed authority map, known conflicts, audit checklist and retirement gates are maintained in the private governing handbook:
 
-The audit must classify every relevant repository and document as one of:
-- **GOVERNING** — current ratified institutional policy.
-- **IMPLEMENTATION** — code or infrastructure implementing an approved design.
-- **PROPOSAL** — design awaiting a decision.
-- **EXPERIMENT** — isolated proof of concept or evaluation.
-- **REFERENCE** — upstream source or research material.
-- **LEGACY / SUPERSEDED** — retained for history, not current authority.
+- [GWD Repository Reconciliation Baseline](https://github.com/GoWorld-Digital/gwd-venture-studio/blob/main/docs/11-repository-reconciliation/README.md)
+- [Conflict Register](https://github.com/GoWorld-Digital/gwd-venture-studio/blob/main/docs/11-repository-reconciliation/conflict-register.md)
+- [Consolidation & Retirement Plan](https://github.com/GoWorld-Digital/gwd-venture-studio/blob/main/docs/11-repository-reconciliation/migration-plan.md)
 
-The initial intended separation is:
-- `.github` — public organisational identity and concise cross-agent alignment entry point.
-- `gwd-venture-studio` — constitutional governance, mandates, operating policies and safeguards.
-- `gwd-venture-portfolio` — opportunity register, evaluations, Council decisions and approved Venture lifecycle.
-- `gwd-core` — technical foundation and implementation work, subject to reconciliation with the Studio constitution.
-- `gwd-knowledge-vault` — knowledge source repository, subject to explicit Cortex and data-boundary decisions.
-- `gwd-operating-system`, `gwd-company-os`, `gwd-command`, CRM and Explorer repositories — classify and reconcile their actual scope; none may override the Studio constitution merely by calling itself canonical.
+The inventory establishes one authority per concern: `.github` for public identity; `gwd-venture-studio` for constitution and policy; `gwd-venture-portfolio` for formal opportunity and Venture decisions; `gwd-core` for technical execution implementation; `gwd-knowledge-vault` as a governed knowledge source candidate; and Hermes as the first-phase execution runtime. No repository may override these boundaries by describing itself as canonical or as a company operating system.
 
-This is a proposed repository authority map for the audit, not a claim that all current documents already conform.
+Repositories and documents are classified as GOVERNING, IMPLEMENTATION, PROPOSAL, EXPERIMENT, REFERENCE or LEGACY / SUPERSEDED. The initial classification is provisional until the code, branches, integrations, deployments, permissions and dependencies are inspected.
 
 ## 8. Required conduct during the transition
 
-Until the reconciliation is completed:
+The initial repository inventory and first-pass conflict register are complete. The exhaustive technical audit, migration and archive decisions remain open. Until those gates are completed:
 - Do not create new departments, business units or Ventures based solely on older diagrams.
 - Do not deploy proposed cloud infrastructure or connect production credentials solely because a repository describes it.
 - Do not treat GBrain, Cortex, Vault, Obsidian, Ops Core or any dashboard as fully integrated unless verified by implementation evidence.
