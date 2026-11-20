@@ -76,10 +76,11 @@ GWD will evaluate a dedicated desktop/operator experience around Hermes. Two can
 
 - [hermes-webui](https://github.com/nesquena/hermes-webui) — browser-based interface, lightweight Python/vanilla-JavaScript implementation, workspace and session views. Its README states that the standard bootstrap does not support native Windows and recommends WSL2; a community native-Windows path is separate.
 - [hermes-desktop](https://github.com/fathah/hermes-desktop) — native Electron desktop application with local or remote Hermes connection, provider/model configuration, sessions, profiles, skills, memory, tools, schedules and gateway controls. Its README describes active development; Windows installers are currently unsigned.
+- [Claw3D candidate in gwd-command](https://github.com/GoWorld-Digital/gwd-command/tree/feat/cockpit-v0) — a Next.js / Three.js 3D agent workspace with a gateway/proxy architecture and a Hermes adapter script in its package manifest. The inspected architecture is primarily OpenClaw-gateway-oriented and explicitly lists multi-user coordination as a non-goal. Treat it as an experimental visual cockpit, not as a Hermes runtime or GWD control plane.
 
 Both upstream repositories declare MIT licences in the files inspected on 20 November 2026. This is an initial repository-level check, not a complete dependency, security, provenance or release audit.
 
-**Initial evaluation hypothesis:** assess hermes-desktop first as the likely native Windows operator interface; assess hermes-webui as a complementary browser/remote administration surface. Do not fork, merge or deploy either project into production until the technical review verifies architecture, permissions, update mechanisms, secrets handling, local/remote boundaries, dependency licences, maintenance and compatibility with the selected Hermes version.
+**Initial evaluation hypothesis:** assess hermes-desktop first as the likely native Windows operator interface; assess hermes-webui as a complementary browser/remote administration surface; compare Claw3D only if a 3D visual workspace provides material operating value. Do not fork, merge or deploy any candidate into production until the technical review verifies architecture, permissions, update mechanisms, secrets handling, local/remote boundaries, dependency licences, maintenance and compatibility with the selected Hermes version.
 
 The desired outcome is not necessarily to maintain two interfaces. Choose the smallest safe interface stack that covers the actual operating needs.
 
