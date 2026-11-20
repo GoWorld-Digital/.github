@@ -22,7 +22,7 @@ The Genesis programme is managed by AtlasClub. GoWorld.Digital is its first AI-N
 
 ## 2. Decisions that govern the current phase
 
-The following decisions supersede conflicting assumptions in older drafts, prototypes and repository documents:
+The following decisions supersede conflicting assumptions in older unratified drafts, prototypes and repository documents. They do not silently amend prior ratified Council decisions D01–D11 or the approved GWD-GOV-0001 Charter; transition and supersession questions are recorded in the private Decision Continuity Register:
 
 - GWD is an **AI Venture Studio**, not a preselected five-layer company structure or a fixed list of business units.
 - Governance has two permanent missions: portfolio stewardship and active opportunity discovery.
