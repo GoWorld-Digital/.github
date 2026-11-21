@@ -53,6 +53,22 @@ Read the complete founding manifesto:
 - [Manifesto Fundacional — Português](./MANIFESTO-PT.md)
 - [Founding Manifesto — English](./MANIFESTO-EN.md)
 
+## Operational entry point — one authority per function
+
+GWD Genesis has **three institutional pillars** (Governance, Ventures, Cortex), not a fixed roster of departments. Use only the source that owns the work:
+
+| Need | Go to |
+|---|---|
+| Constitution, mandates, reserved human approvals | [GWD Venture Studio](https://github.com/GoWorld-Digital/gwd-venture-studio) |
+| Research, approval and lifecycle of Ventures | [GWD Venture Portfolio](https://github.com/GoWorld-Digital/gwd-venture-portfolio) |
+| Mission/task execution state, costs and approvals | [GWD Core](https://github.com/GoWorld-Digital/gwd-core) — implementation status must be verified |
+| Versioned organizational knowledge and historical decisions | [GWD Knowledge Vault](https://github.com/GoWorld-Digital/gwd-knowledge-vault) |
+| Public illustration and simulation | [Organization Explorer](https://github.com/GoWorld-Digital/gwd-organization-explorer), never operational authority |
+
+**Hermes** is the first-phase execution runtime. CRM, Agency Agents catalogues and Command Cockpit are candidates or supporting tools, not extra governance layers. Previously archived Company OS / Operating System repositories are historical and non-governing. Do not promote historical four/five-BU structures or GBrain prototypes by merging old branches.
+
+[See the verified organization-wide cleanup record](https://github.com/GoWorld-Digital/gwd-venture-studio/blob/main/docs/11-repository-reconciliation/2026-11-20-cleanup-execution.md). Formal D01–D11 and Charter transition questions remain governed by the [Decision Continuity Register](https://github.com/GoWorld-Digital/gwd-venture-studio/blob/main/docs/11-repository-reconciliation/decision-continuity-register.md).
+
 ## The ecosystem
 
 - [GWD Venture Studio](https://github.com/GoWorld-Digital/gwd-venture-studio) — constitutional, governance and operating framework.
