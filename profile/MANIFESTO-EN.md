@@ -107,13 +107,12 @@ No Venture is required to use a single agent engine, framework, language model o
 
 Technologies may coexist, including:
 
-- Hermes.
-- OpenClaw.
-- OpenBot.
-- Paperclip.
-- Other agent runtimes and systems.
+- Local, cloud and hybrid agent engines selected per mission.
+- Orchestration frameworks, collaboration tools and interoperable adapters.
 - Commercial, open-weight and specialised models.
 - Self-managed infrastructure or cloud services.
+
+**AtlasHQ** is a proposed AI-first enterprise workspace direction from AtlasHub-Si: a possible collaboration layer, not a mandatory execution engine or a GWD service claimed to be deployed.
 
 Technology choices should account for efficiency, cost, security, autonomy, maintainability, portability and business fit.
 
