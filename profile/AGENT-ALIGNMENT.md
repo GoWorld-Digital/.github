@@ -1,161 +1,75 @@
-# GWD Genesis — Institutional Alignment & Agent Operating Directive
+# GWD Genesis — Agent & Contributor Operating Directive
 
-**Decision baseline:** 20 November 2026  
-**Status:** Founder-ratified strategic direction; implementation and repository reconciliation in progress  
-**Applies to:** All GWD repositories, agents, assistants, runtimes, development tools and future Ventures
+**Operating update:** 21 November 2026  
+**Classification:** Current cross-repository guidance  
+**Strategic baseline:** GWD Genesis, 20 November 2026  
+**Scope:** GWD agents, assistants, contributors, repositories and external technology partners
 
-> **GWD GENESIS — AI Venture Studio**  
-> A continuously evolving ecosystem of autonomous businesses.  
+> **GoWorld.Digital is building an AI-Native venture group.**  
 > **One Intelligence. Multiple Runtimes. Independent Ventures.**
 
-## 1. Institutional identity
+This document is an **operating clarification**, not a new Council resolution, legal instrument, access grant or declaration of production readiness. Previously ratified decisions **D01–D11** and the approved historical **GWD-GOV-0001** Charter are preserved. Conflicts and formal transitions, including D01, D06, D09/D10 and D11, require a recorded Founder/Council decision in the [Decision Continuity Register](https://github.com/GoWorld-Digital/gwd-venture-studio/blob/main/docs/11-repository-reconciliation/decision-continuity-register.md) (access-controlled).
 
-GWD Genesis is an **AI Venture Studio** organised around three pillars:
+## 1. Identity: organization, workspace and execution are different things
 
-1. **Governance** — an intelligent organisation that decides, coordinates, challenges assumptions, stewards the portfolio and discovers opportunities.
-2. **Ventures** — independent business units that discover, build, launch and operate businesses under explicit mandates.
-3. **Cortex** — the central knowledge and memory capability that preserves institutional context, decisions, evidence and continuity.
+- **GWD** is the business-building group: Governance, Ventures and Cortex. The *holding* concept is an **operating model**; do not infer a registered holding company, legal operator, ownership or corporate license.
+- **Governance** sets strategy, authorizes mandates, manages portfolio decisions and protects human-reserved actions.
+- **Ventures** investigate, build, deliver and operate their own approved business models. Candidate ideas, codebases and demonstrations are not approved Ventures.
+- **Cortex** is the institutional knowledge and continuity capability. Its internal architecture remains reserved; an indexed pilot is not authorization for cross-tenant federation.
+- **AtlasHQ** is the proposed AI-first enterprise **workspace** from the AtlasHub-Si technology initiative: shared mission, collaboration, conversation, team and tool views, agnostic to execution engines. Its implementation and any GWD use must be verified and authorized. AtlasHQ is **not** GWD's legal identity, an approved live control plane or the source of governance authority.
+- **Execution engines and models** are replaceable components integrated using documented interfaces, scoped grants and evidence. A historical pilot's engine choice does not create a permanent organization-wide vendor mandate.
 
-The Studio exists to discover and build real, sustainable businesses, not to accumulate agents, tools, repositories, prototypes or predetermined business units.
+## 2. Minimal operational contract
 
-The Genesis programme is managed by AtlasClub. GoWorld.Digital is its first AI-Native venture-studio environment. Do not conflate GWD with AtlasHub, AtlasClub, a particular legal entity, or an assumed corporate operating structure.
+A useful GWD work item follows the smallest compliant path:
 
-## 2. Decisions that govern the current phase
+**Opportunity or request → accountable mission/approval → chosen execution environment → evidence and outcome → portfolio/operational decision.**
 
-The following decisions supersede conflicting assumptions in older unratified drafts, prototypes and repository documents. They do not silently amend prior ratified Council decisions D01–D11 or the approved GWD-GOV-0001 Charter; transition and supersession questions are recorded in the private Decision Continuity Register:
+Do not multiply mandatory committees, templates, trackers, agents, schemas, reapproval loops or dashboards for low-risk work. Authorization depth must be proportional to risk and applicable ratified decisions. Human approval is still required for legal commitments, finance, equity, regulated activities, material spending, sensitive information, investor outreach and binding external commitments.
 
-- GWD is an **AI Venture Studio**, not a preselected five-layer company structure or a fixed list of business units.
-- Governance has two permanent missions: portfolio stewardship and active opportunity discovery.
-- No previously discussed business idea, vertical, department or business unit is automatically approved merely because it appears in old documents. Preserve specific prior Council approvals (including D01's GWD Academy designation) and explicitly carry forward, revalidate or supersede them through the formal transition process; do not erase D01–D11.
-- Every Venture Chief receives a mission, not a predetermined solution. Chiefs must research, challenge the initial hypothesis and recommend a better opportunity or business model when evidence supports it.
-- Ventures may operate owned businesses, sell technology, license products, deliver managed services, serve third-party operators or combine these models.
-- Technology is diverse by design. **One Intelligence. Multiple Runtimes. Independent Ventures.**
-- **Hermes is the primary agent runtime and orchestration engine for the first implementation phase.** This is a practical first-phase default, not a permanent constitutional requirement that every future Venture must use Hermes.
-- Governance and human approval authority do not move into Hermes. A runtime executes within its mandate; it does not grant itself authority.
-- Cortex is a required institutional capability. Its internal technical architecture is not ratified by this directive and remains subject to its separate design and validation process.
-- Organisational, Venture and client data must remain isolated by enforceable permissions. Shared infrastructure does not imply shared access.
-- Autonomy is progressive and risk-based. D10 previously ratified A0–A3; the Studio handbook's A0–A4 extension requires an explicit amendment before A4 can grant authority. Critical legal, financial, equity, regulated, sensitive-data and binding external actions require the applicable explicit human approval.
+**One owner per data domain:**
 
-Prior ratified decisions D01–D11 and the approved GWD-GOV-0001 Charter are preserved. The new 20 November Genesis direction governs the current strategic model, but it does not silently amend the prior decision register or Charter. Formal supersession and transition questions are tracked in the private [Decision Continuity Register](https://github.com/GoWorld-Digital/gwd-venture-studio/blob/main/docs/11-repository-reconciliation/decision-continuity-register.md). All agents must consult it before changing portfolio status, role mandates, autonomy levels or legal/entity assumptions.
+| Concern | Authoritative home / restriction |
+|---|---|
+| Institutional governance, constitutional policy, delegation | `gwd-venture-studio` and ratified Council records |
+| Opportunities, mandates and approved Venture lifecycle | `gwd-venture-portfolio` |
+| GWD mission state, approvals, cost and audit, **if implemented and verified** | Defined Ops Core contract; `gwd-core` remains a staging/technical candidate, not an extra enterprise shell |
+| Source documents and approved knowledge | `gwd-knowledge-vault`; retrieval/indexes are derived |
+| Collaboration and operator interface | AtlasHQ **candidate**; no independent policy, task ledger or unrestricted tenant access |
+| Products / customers / leads | The respective authorized Venture/product systems; only permitted references, provenance and evidence flow to Cortex |
 
-## 3. First-phase runtime decision: Hermes
+## 3. Repository disposition
 
-Hermes is the primary runtime for the first phase because GWD needs one practical execution backbone for agent sessions, tools, skills, memory workflows, scheduling and delegated work.
+- **KEEP current:** `.github` (public positioning), `gwd-venture-studio` (governance), `gwd-venture-portfolio` (venture lifecycle), `gwd-knowledge-vault` (knowledge).
+- **KEEP focused, under review:** `gwd-core` (only the minimal verified GWD operational adapter/state not supplied safely by AtlasHQ); do not merge fixed 4/5-BU or competing memory migrations from old branches.
+- **PAUSE standalone cockpit:** `gwd-command` is an isolated proof-of-concept. Its large PR must remain draft; avoid a second workspace/control plane while AtlasHQ is being evaluated.
+- **WEBSITE:** `gwd-Web-Ecosystem` is reserved for the future **institutional web/landing** role (not an extra operating system). `gwd-organization-explorer` is a separate future immersive/visual experience. Neither is Governance or a live Ops Core.
+- **CRM candidate:** `gwd-crm-os` is a possible GWD CRM/product workstream, not currently an approved operating Venture or canonical customer database. Research and integration must be explicitly scoped; do not ingest raw client/lead data into institutional Cortex without privacy, grants, retention and purpose approval.
+- **Agent catalogues:** GWD `agency-agents` and `agency-agents-app` are historical private reference forks. Prefer **reviewed, version-pinned capabilities** from AtlasHub-Si's Atlas-Workforce/Atlas-WorkSwarms where licensing, provenance, contractual and Clean Room constraints permit. A shared code library does **not** transfer Atlas organizational data, credentials or agent authority.
+- **HISTORICAL:** archived `gwd-company-os` and `gwd-operating-system` have no current instructive authority.
 
-This decision means:
-- New first-phase agent workflows should evaluate Hermes as the default execution environment.
-- Reusable agent roles, skills and operating procedures should be made portable where practical.
-- Other runtimes may be tested in isolated proof-of-concept environments.
-- A Venture may request another runtime where there is a documented technical, economic, security or product reason.
-- No runtime may bypass GWD identity, mandate, approval, audit or data-isolation requirements.
-- Do not create parallel autonomous control planes that independently issue conflicting instructions or write competing canonical task/decision state.
+These classifications do not archive, merge, delete or publish any repository automatically. Before actual retirement, validate branches, unique assets, live deployments, CI/webhooks, credentials, open PRs, external dependencies and recovery.
 
-Hermes is the execution engine of this phase — **not the Board, not the source of institutional authority and not automatically the system of record for every class of data**. The authoritative home for each data type must be explicitly designated during the architecture reconciliation.
+## 4. Rules for assistants and collaborators
 
-## 4. Roles of the tools and assistants
+1. Check **current** institutional guidance, the mandate and the authoritative data owner before executing.
+2. Mark important claims **DECIDED / IMPLEMENTED / VERIFIED / PROPOSED / HISTORICAL**; never advertise a prototype, simulation, old branch, external fork or agent persona as an active GWD business or service.
+3. Do not create a second source of truth for missions, customer records, portfolio decisions or institutional memory.
+4. Do not install bulk agent catalogues, elevate permissions, reuse cross-organization secrets, copy client data or move historical material into live Cortex by default.
+5. Preserve upstream notices, attribution, licenses, audit and existing decisions. Make reversible changes under a scoped mandate.
+6. Verify permission checks, isolation and revocation technically. Prompts and folder names are not access-control boundaries.
+7. No new formal departments, fixed BU roster, legal entity or Ventures solely because old SQL, documents, agents or visuals contain them.
+8. Record concise evidence in the **existing** canonical issue/decision or operational state. Do not create a new governance document for every technical review.
+9. **D11 production gate is open:** a second independent human Organization Owner with tested recovery and separate release authorization are required before production. Staging with synthetic data is not a production GO.
 
-The following is the operating interpretation for alignment. It distinguishes models, development environments and agent runtimes; they are not interchangeable categories.
+## 5. Transition and technical truth
 
-| Tool / assistant | First-phase role | Boundary |
-|---|---|---|
-| **Hermes** | Primary agent runtime, tool execution and orchestration backbone | Executes authorised work; does not approve its own authority |
-| **Claude Code** | Software engineering, repository analysis, implementation and code review | Works against explicit task scope and repository instructions |
-| **GPT / ChatGPT** | Strategic reasoning, architecture critique, research synthesis, drafting and independent review | Recommendations are not institutional decisions until recorded through governance |
-| **Gemini** | Independent analysis, research, multimodal work and second-opinion review | Same governance and evidence requirements as every assistant |
-| **Antigravity** | Development workspace and engineering execution environment | Must follow current repository and task-level instructions |
-| **DeepSeek** | Model/provider option and specialist reasoning capacity where selected | A model is not, by itself, an organisational authority or control plane |
-| **OpenBot Local** | Auxiliary/experimental agent environment; may be evaluated for specialist capabilities | Must not become a competing source of truth or bypass Hermes/GWD controls |
-| **AtlasBot Local** | Local assistant/interface candidate; role and integration to be confirmed during audit | No assumed executive authority or unrestricted access |
-| **AtlasBot Cloud** | Cloud assistant/interface candidate; role and integration to be confirmed during audit | Must respect tenant boundaries, least privilege and explicit routing |
+The earlier first-phase runtime preference and historical six-department/fixed-BU proposals remain traceable in Git and Council history. This directive **removes runtime branding from the institutional identity**, but does **not silently revoke** an applicable prior ratified implementation decision. Open changes to previously ratified D09/D10 or Charter provisions must be resolved formally. Technical runbooks must retain accurate engine names for *observed* services, versions, vulnerabilities and recovery procedures.
 
-These tools can collaborate, challenge each other and provide independent reviews. Their outputs must be traceable to a task or decision record when they affect GWD work.
+The existing GWD GBrain retrieval pilot and restricted NEXUS read-only MCP access were tested in November 2026; this does **not** establish an approved AtlasHQ production deployment, universal Cortex architecture or federated GWD/Atlas memory.
 
-Do not treat a conversation in one assistant as automatically changing the institutional baseline. Important decisions must be recorded in the designated governance record and referenced by other agents.
-
-## 5. Desktop and operator interface direction
-
-GWD will evaluate a dedicated desktop/operator experience around Hermes. Two candidate projects are under consideration:
-
-- [hermes-webui](https://github.com/nesquena/hermes-webui) — browser-based interface, lightweight Python/vanilla-JavaScript implementation, workspace and session views. Its README states that the standard bootstrap does not support native Windows and recommends WSL2; a community native-Windows path is separate.
-- [hermes-desktop](https://github.com/fathah/hermes-desktop) — native Electron desktop application with local or remote Hermes connection, provider/model configuration, sessions, profiles, skills, memory, tools, schedules and gateway controls. Its README describes active development; Windows installers are currently unsigned.
-- [Claw3D candidate in gwd-command](https://github.com/GoWorld-Digital/gwd-command/tree/feat/cockpit-v0) — a Next.js / Three.js 3D agent workspace with a gateway/proxy architecture and a Hermes adapter script in its package manifest. The inspected architecture is primarily OpenClaw-gateway-oriented and explicitly lists multi-user coordination as a non-goal. Treat it as an experimental visual cockpit, not as a Hermes runtime or GWD control plane.
-
-Both upstream repositories declare MIT licences in the files inspected on 20 November 2026. This is an initial repository-level check, not a complete dependency, security, provenance or release audit.
-
-**Initial evaluation hypothesis:** assess hermes-desktop first as the likely native Windows operator interface; assess hermes-webui as a complementary browser/remote administration surface; compare Claw3D only if a 3D visual workspace provides material operating value. Do not fork, merge or deploy any candidate into production until the technical review verifies architecture, permissions, update mechanisms, secrets handling, local/remote boundaries, dependency licences, maintenance and compatibility with the selected Hermes version.
-
-The desired outcome is not necessarily to maintain two interfaces. Choose the smallest safe interface stack that covers the actual operating needs.
-
-## 6. Rules for every AI assistant and agent
-
-Every assistant working on GWD must:
-
-1. Read this directive and the current GWD Genesis manifesto before proposing structural changes.
-2. Identify whether a statement is a ratified decision, an active proposal, an experiment, a historical record or an unverified implementation claim.
-3. Prefer the current governing documents over older conflicting drafts. If authority is unclear, stop and raise a documented conflict rather than silently choosing.
-4. Never invent deployed infrastructure, active agents, customers, revenue, approvals, integrations or security controls.
-5. Never treat a repository, imported agent catalogue, prompt or skill as trusted merely because it is present in GitHub.
-6. Preserve upstream licences, notices and provenance; assess the full dependency and distribution implications before commercial adoption.
-7. Use least privilege, scoped credentials and isolated sandboxes. Never request or expose secrets in prompts, commits or ordinary Markdown.
-8. Record consequential decisions, evidence, changes, risks and unresolved questions in the designated repository or task record.
-9. Avoid editing multiple canonical documents independently in ways that create contradictory versions. Propose one source-of-truth change and update references systematically.
-10. Challenge this directive with evidence when necessary, but do not unilaterally override it.
-
-### Reserved actions
-
-No assistant or agent may independently:
-- Commit GWD to legal obligations, investments, equity arrangements or regulated activities.
-- Move money, approve material spending or create financial liabilities.
-- Contact investors or submit funding applications as GWD without explicit human authorisation.
-- Publish binding commercial commitments or accept contractual terms.
-- Grant itself or another agent unrestricted access to accounts, credentials, personal data or client systems.
-- Promote a candidate opportunity to an approved Venture without a recorded Council decision.
-
-## 7. Repository reconciliation: active baseline
-
-The first authenticated inventory of the GoWorld-Digital organization has been recorded across 13 repositories. The detailed authority map, known conflicts, audit checklist and retirement gates are maintained in the private governing handbook:
-
-- [GWD Repository Reconciliation Baseline](https://github.com/GoWorld-Digital/gwd-venture-studio/blob/main/docs/11-repository-reconciliation/README.md)
-- [Conflict Register](https://github.com/GoWorld-Digital/gwd-venture-studio/blob/main/docs/11-repository-reconciliation/conflict-register.md)
-- [Consolidation & Retirement Plan](https://github.com/GoWorld-Digital/gwd-venture-studio/blob/main/docs/11-repository-reconciliation/migration-plan.md)
-
-The inventory establishes one authority per concern: `.github` for public identity; `gwd-venture-studio` for constitution and policy; `gwd-venture-portfolio` for formal opportunity and Venture decisions; `gwd-core` for technical execution implementation; `gwd-knowledge-vault` as a governed knowledge source candidate; and Hermes as the first-phase execution runtime. No repository may override these boundaries by describing itself as canonical or as a company operating system.
-
-Repositories and documents are classified as GOVERNING, IMPLEMENTATION, PROPOSAL, EXPERIMENT, REFERENCE or LEGACY / SUPERSEDED. The initial classification is provisional until the code, branches, integrations, deployments, permissions and dependencies are inspected.
-
-## 8. Required conduct during the transition
-
-The initial repository inventory and first-pass conflict register are complete. The exhaustive technical audit, migration and archive decisions remain open. Until those gates are completed:
-- Do not create new departments, business units or Ventures based solely on older diagrams.
-- Do not deploy proposed cloud infrastructure or connect production credentials solely because a repository describes it.
-- Do not treat GBrain, Cortex, Vault, Obsidian, Ops Core or any dashboard as fully integrated unless verified by implementation evidence.
-- Do not bulk-import all candidate agents. Select roles according to actual missions and test them under Hermes.
-- Do not make broad destructive edits. Preserve history, use branches/PRs where practical and record supersession explicitly.
-- Enforce D11: synthetic staging work may proceed only within its specific approved scope; before any production deployment, verify a second independent human GitHub Organization Owner with independent recovery, MFA and the required access matrix. A staging GO is never a production GO.
-- Continue useful, reversible work in isolated environments where it does not depend on unresolved institutional assumptions.
-
-## 9. Prior approvals and open implementation work
-
-Before proposing a merge, archive, migration, role change or production action, every assistant must consult:
-- [Decision Continuity Register D01–D11 and GWD-GOV-0001](https://github.com/GoWorld-Digital/gwd-venture-studio/blob/main/docs/11-repository-reconciliation/decision-continuity-register.md).
-- [Open PR Register](https://github.com/GoWorld-Digital/gwd-venture-studio/blob/main/docs/11-repository-reconciliation/open-pr-register.md).
-
-Open PRs and branches preserve work and reviewer findings; they are not automatically approved or production-ready. Do not merge, close or discard them as part of cleanup.
-
-## 10. Acknowledgement required from each assistant
-
-Every assistant or agent receiving this directive should respond with:
-1. **UNDERSTOOD** — the current GWD Genesis identity and the three pillars.
-2. **RUNTIME** — Hermes is the primary runtime for the first phase; state what role the assistant/tool itself plays.
-3. **CONFLICTS** — list any instructions, memory, project files or prior decisions that conflict with this directive.
-4. **RISKS** — identify any security, data, licence, deployment or governance risks.
-5. **NEXT ACTIONS** — propose only scoped, reversible actions that fit the current mandate.
-6. **NO SILENT OVERRIDES** — do not alter constitutional or portfolio decisions without the required governance process.
-
-Acknowledgement is not approval to access systems or execute actions. Existing permissions remain unchanged until explicitly reviewed.
+**Contributor acknowledgement:** state (a) mandate and accountable owner, (b) source of authority, (c) intended runtime/tool and tenant, (d) risk/approval boundary, and (e) verifiable delivery. Do not turn the acknowledgement into a new approval process.
 
 ---
 
-**GWD Genesis — AI Venture Studio**  
-**One Intelligence. Multiple Runtimes. Independent Ventures.**  
-**Discover. Build. Launch. Operate. Scale.**
+**GWD Genesis — Build businesses, not bureaucratic architectures.**
