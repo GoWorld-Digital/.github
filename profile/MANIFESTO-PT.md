@@ -107,13 +107,12 @@ Nenhuma Venture está obrigada a utilizar um único motor de agentes, framework,
 
 Podem coexistir, entre outras soluções:
 
-- Hermes.
-- OpenClaw.
-- OpenBot.
-- Paperclip.
-- Outros runtimes e sistemas de agentes.
+- Motores de agentes locais, cloud ou híbridos, selecionados por missão.
+- Frameworks de orquestração, ferramentas colaborativas e adaptadores interoperáveis.
 - Modelos comerciais, open-weight e modelos especializados.
 - Infraestrutura própria ou serviços cloud.
+
+O **AtlasHQ** é uma direção de workspace empresarial AI-First proposta pela AtlasHub-Si; é uma camada de colaboração potencial, não um motor obrigatório, nem um serviço GWD dado como implementado.
 
 A seleção tecnológica deve considerar eficiência, custo, segurança, autonomia, manutenção, portabilidade e adequação ao negócio.
 
